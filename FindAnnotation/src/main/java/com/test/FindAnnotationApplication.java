@@ -2,16 +2,9 @@ package com.test;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
-import org.springframework.beans.MutablePropertyValues;
-import org.springframework.beans.factory.support.BeanDefinitionRegistry;
-import org.springframework.beans.factory.support.DefaultListableBeanFactory;
+
 import org.springframework.beans.factory.support.GenericBeanDefinition;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.core.type.AnnotationMetadata;
 
 @SpringBootApplication
 public class FindAnnotationApplication {
@@ -25,7 +18,7 @@ public class FindAnnotationApplication {
 
     System.out.println(pack);
     System.out.println(lst);
-    System.out.println(lst);
+ 
     
 
 
