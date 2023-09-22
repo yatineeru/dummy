@@ -25,6 +25,8 @@ public class FindAnnotationApplication {
 
     System.out.println(pack);
     System.out.println(lst);
+    System.out.println(lst);
+    
 
 
   }
